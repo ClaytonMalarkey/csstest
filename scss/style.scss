@@ -1,0 +1,21 @@
+
+$parent-color : orange;
+.parent {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    h1 {
+        background-color: yellow;
+        color: $parent-color;
+        &:hover {
+            color: $parent-color;
+            background-color: green;
+        }
+    }
+    &:hover {
+        background-color: red;
+    }
+    p{
+        background-color: $parent-color;
+    }
+}

@@ -1,0 +1,21 @@
+.parent {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
+.parent h1 {
+  background-color: yellow;
+  color: orange;
+}
+.parent h1:hover {
+  color: orange;
+  background-color: green;
+}
+.parent:hover {
+  background-color: red;
+}
+.parent p {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
